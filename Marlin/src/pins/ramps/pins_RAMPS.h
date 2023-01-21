@@ -231,6 +231,7 @@
 #endif
 
 #define HEATER_0_PIN                MOSFET_A_PIN
+#define FAN_PIN                     MOSFET_B_PIN
 
 #if FET_ORDER_EFB                                 // Hotend, Fan, Bed
   #ifndef HEATER_BED_PIN
